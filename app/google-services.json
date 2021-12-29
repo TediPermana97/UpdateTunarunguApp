@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "469197350129",
+    "project_id": "edukasitunarunguapp",
+    "storage_bucket": "edukasitunarunguapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469197350129:android:d40db1b8895c2c08503550",
+        "android_client_info": {
+          "package_name": "com.mfizaralfian.belajartunarungufizarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469197350129-f77oo6qqkk9l03f0m2dc1fas5dh2nr1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mfizaralfian.belajartunarungufizarapp",
+            "certificate_hash": "b74d2c8910e149eb5712b0e9fb242c9c2c4d1469"
+          }
+        },
+        {
+          "client_id": "469197350129-nv3q108af6klkplqqv4qpo2lm5alc6pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPhSN8muQDgd2SMZjQn3EE4oCDJlpHAZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469197350129-nv3q108af6klkplqqv4qpo2lm5alc6pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

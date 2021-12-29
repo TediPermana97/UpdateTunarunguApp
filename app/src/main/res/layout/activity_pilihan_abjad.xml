@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/iconuta"
+    tools:context=".PilihanAbjadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="#316AAC">
+
+        <ImageView
+            android:id="@+id/kembali"
+            android:layout_width="214dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="5"
+            android:background="@drawable/next"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Tutor"
+            android:gravity="left|center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="4"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Huruf Abjad"
+            android:gravity="center"
+            android:textColor="#612020"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <!-- Row 1 -->
+    <!-- Column 1 -->
+
+    <LinearLayout
+        style="@style/card"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:layout_margin="13dp"
+        android:elevation="12dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:src="@drawable/abc12" />
+
+        <Button
+            android:onClick="onClick1"
+            style="@style/editButton2_style"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="HURUF ABJAD    "
+            android:textAlignment="viewStart"
+            android:textColor="#CC1E59"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/card"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:layout_margin="14dp"
+        android:elevation="12dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:src="@drawable/a2" />
+
+        <Button
+            android:onClick="onClick2"
+            style="@style/editButton2_style"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="Tutor Praktek"
+            android:textAlignment="viewStart"
+            android:textColor="#CC1E59"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

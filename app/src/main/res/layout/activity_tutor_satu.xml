@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/iconuta"
+    tools:context=".Tutor.TutorSatuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="#316AAC">
+
+        <ImageView
+            android:id="@+id/kembali"
+            android:layout_width="214dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="5"
+            android:background="@drawable/next"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Tatacara"
+            android:gravity="left|center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:onClick="onClick4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/imageView"
+                        android:scaleType="fitXY"
+                        android:padding="1dp"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/abc12"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:id="@+id/textViewName"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="Mandi Besar"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:id="@+id/textViewYear"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Pertama Membaca Niat di dalam hati (نَوَيْتُ الْغُسْلَ لِرَفْعِ اْلحَدَثِ اْلأَكْبَرِ مِنَ اْلِجنَابَةِ فَرْضًا لِلهِ تَعَالَى)"
+                        tools:ignore="DuplicateIds" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:onClick="onClick5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/imageView"
+                        android:scaleType="fitXY"
+                        android:padding="1dp"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/abc12"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:id="@+id/textViewName"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="Wudhu"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:id="@+id/textViewYear"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Pertama Membersihkan selajari Kedua Membasuh Seluruh muka di barengi dengan niat di dalam hati"
+                        tools:ignore="DuplicateIds" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:onClick="onClick6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/imageView"
+                        android:scaleType="fitXY"
+                        android:padding="1dp"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/abc12"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:id="@+id/textViewName"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="Tayamum"
+                        tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:id="@+id/textViewYear"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Mencari debu yang terdapat di tempat suci Pertama Meletakan tangan ke tempat debu berada di barengi dengan niat"
+                        tools:ignore="DuplicateIds" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

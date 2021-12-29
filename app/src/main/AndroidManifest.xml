@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mfizaralfian.belajartunarungufizarapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tunarungufizar">
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.PraktekAbjadActivity"></activity>
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutorial.TutorEnamActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutorial.TutorLimaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutorial.TutorEmpatActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutorial.TutorTigaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutorial.TutorDuaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutorial.TutorSatu2Activity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutor.PanduanTutorEnamActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutor.PanduanTutorLimaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutor.PanduanTutorEmpatActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutor.PanduanTutorTigaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutor.PanduanTutorDuaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.VideoTutor.PanduanTutorSatuActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.MateriVideo.PlayVideoEmpatActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.MateriVideo.PlayVideoTigaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.MateriVideo.PlayVideoDuaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.MateriVideo.PlayVideoSatuActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.PilihanAbjadActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.InformasiAbjad.InformasiKehamilanActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.InformasiAbjad.DetailInformasiActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorVideo.VideoTutorEnamActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorVideo.VideoTutorLimaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorVideo.VideoTutorEmpatActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorVideo.VideoTutorTigaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorVideo.VideoTutorDuaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorVideo.VideoTutorSatuActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Tutorial.MateriTutorEnamActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Tutorial.MateriTutorLimaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Tutorial.MateriTutorEmpatActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Tutorial.MateriTutorTigaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Tutorial.MateriTutorDuaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Tutorial.MateriTutorSatuActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Materi.MateriLimaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Materi.MateriEmpatActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Materi.MateriTigaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Materi.MateriDuaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.Materi.MateriSatuActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorialVideoLimactivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorialVideoEmpatActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorialVideoTigaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorialVideoDuaActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.TentanAplikasiActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.DaftarVideoActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.PlayVideoActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.Tutor.TutorSatuActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataDua.TutorialVideoSatuActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.DataSatu.TextSatuActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.IntroVideo.VideoFourActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.IntroVideo.VideoThreeActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.IntroVideo.VideoTwoTActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.IntroVideo.VideoOoeActivity" />
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.SplashscreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mfizaralfian.belajartunarungufizarapp.MainActivity" />
+    </application>
+
+</manifest>

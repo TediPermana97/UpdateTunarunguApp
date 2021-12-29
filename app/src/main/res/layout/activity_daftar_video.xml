@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/iconuta"
+    tools:context=".DataDua.DaftarVideoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="#316AAC">
+
+        <ImageView
+            android:id="@+id/kembali"
+            android:layout_width="214dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="5"
+            android:background="@drawable/next"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Tutor"
+            android:gravity="left|center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:onClick="onClick1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageView"
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/abc12"  />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="TAHARAH" />
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Taharah mmenurut bahasa berarti benci. menurut syaraatau istilah adalah membersihkan diri, pakaian, tempat dan" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="onClick2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageView"
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/abc12"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Macam Air"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Air yang dapat digunakan untuk bersuci adalah Air mutlak yaitu air yang suci dan mensucikan, yaitu air"
+                    tools:ignore="DuplicateIds" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="onClick3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageView"
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/abc12"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Hadast"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Hadast adalah keadaan tidak suci pada orang yang telah balig dan berakal sehat. Hadas dibedakan menjadi  hadast besar "
+                    tools:ignore="DuplicateIds" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="onClick4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageView"
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/abc12"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Sebab Hadast Brsar"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Sebab hadast besar antara lain keluarnya mani, bertemunya dua kemaluan, meninggal dunia dan mendapat haid"
+                    tools:ignore="DuplicateIds" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="onClick5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageView"
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/abc12"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Najis"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Pengertian najis-najis menurut definisi Asy- Syafiiyah adalah sesuatu yang bersifat kotor dan mencegah sahnya"
+                    tools:ignore="DuplicateIds" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="onClick11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageView"
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/abc12"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Najis Ringan"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Memercikkan air kebagian yang terkena najis"
+                    tools:ignore="DuplicateIds" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="onClick22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageView"
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/abc12"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Najis Sedang"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Membasuh atau menyiramnya dengan air sampai najis tersebut hilang (baik rasa, bau dan warnanya)"
+                    tools:ignore="DuplicateIds" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="onClick33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageView"
+                    android:scaleType="fitXY"
+                    android:padding="1dp"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/abc12"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Najis Berat"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Mencucinya dengan air bersih sebanyak tujuh kali dan salah satunya dengan tanah atau batu"
+                    tools:ignore="DuplicateIds" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+ </ScrollView>
+</LinearLayout>

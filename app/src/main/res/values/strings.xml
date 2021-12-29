@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">tunarungufizar</string>
+    <string name="justify">Wanita emang unik dan spesial. Saat hati wanita tersakiti, ia tidak akan menangis
+        didepanmu namun ia menangis didalam hatinya. Jadi mengertilah setiap sifat wanita.
+        Karena dengan engkau mengerti, maka engkau akan mendapatkan kebahagiaan bersamanya.
+    </string>
+    <string name="isitentang">Tunarungu Mengaji adalah aplikasi\n pembelajaran baca Al-quran dengan menggunakan metode iqro dan bahasa isyarat berbasis android guna membantu dan mempermudah bagi penyandang tunarungu dalam membaca Alqur\'an</string>
+
+
+    <string name="materi1">Thaharah menurut bahasa berarti bersuci. Menurut syara’ atau istilah adalah membersihkan diri, pakaian, tempat, dan benda-benda lain dari najis dan hadas menurut cara-cara yang ditentukan oleh syariat islam.\n Thaharah atau bersuci adalah syarat wajib yang harus dilakukan dalam beberapa macam ibadah</string>
+    <string name="materi2"> Air yang dapat digunakan untuk bersuci adalah Air mutlak yaitu air yang suci dan mensucikan, yaitu air :\n
+1. Air hujan\n
+2. Air sumur\n
+3. Air laut\n
+4. Air sungai\n
+5. Air danau/ telaga\n
+6. Air salju\n
+7. Air embun
+</string>
+
+    <string name="materi3">Hadast adalah keadaan tidak suci pada orang yang telah balig dan berakal sehat. Hadas dibedakan menjadi  hadast besar dan hadas kecil. </string>
+    <string name="materi4">Sebab hadast besar antara lain keluarnya mani, bertemunya dua kemaluan, meninggal dunia dan mendapat haid, nifas dan melahirkan bayi.\n Dan Sebab hadast kecil antara lain yaitu pertama keluarnya sesuatu dari dua lubang kemaluan depan atau belakang, kedua hilang akal baik mabuk, pingsan ataupun sakit, ketiga bersentuhannya kulit laki2 dan perempuan yang bukan mahrom tanpa ada pembatas kain, Keempat menyentuh kemaluan tanpa di lapisi kain dengan sengaja atau tidak sengaja, Kelima tidur. </string>
+    <string name="materi5">Pengertian najis-najis menurut definisi Asy- Syafiiyah adalah sesuatu yang bersifat kotor dan mencegah sahnya salat tanpa ada hal yang meringankan, contoh perkara najis adalah : \n
+1. Bangkai (Kecuali manusia) \n
+2. Darah \n
+3. Nanah \n
+4. Segala sesuatu yang keluar dari dubur (anus) dan kubul (kelamin) \n
+5. Anjing dan babi, minuman keras seperti arak dan sebaginya \n
+7. Bagian anggota badan dari hewan yang terpisah karena dipotong pada bagian tertentu saja.</string>
+
+    <string name="tutorial1">Memercikkan air kebagian yang terkena najis.</string>
+    <string name="tutorial2">Membasuh atau menyiramnya dengan air sampai najis tersebut hilang (baik rasa, bau dan warnanya).</string>
+    <string name="tutorial3">Mencucinya dengan air bersih sebanyak tujuh kali dan salah satunya dengan tanah atau batu.</string>
+
+    <string name="tutorial4">1.	Pertama Membaca Niat di dalam hati (نَوَيْتُ الْغُسْلَ لِرَفْعِ اْلحَدَثِ اْلأَكْبَرِ مِنَ اْلِجنَابَةِ فَرْضًا لِلهِ تَعَالَى)\n Di barengi dengan menyiram tubuh dengan air pertama secara merata.\n 2.	Kedua mengguyur seluruh bagian luar badan, tak terkecuali rambut dan bulu – bulunya dengan air yang mengalir.</string>
+    <string name="tutorial5">1.	Pertama Membersihkan selajari.\n 2.	Kedua Membasuh Seluruh muka di barengi dengan niat di dalam hati (نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ اْلاَصْغَرِ فَرْضًاِللهِ تَعَالَ)\n 3. Ketiga Membasuh kedua tangan sampai siku-siku\n 4. Keempat Mengusap sebagian rambut kepala \n 5. Kelima Membasuh kedua belah kaki sampai matakaki\n 6. Keenam Tertib.</string>
+    <string name="tutorial6">1. Mencari debu yang terdapat di tempat suci !!!..\n 2. Pertama Meletakan tangan ke tempat debu berada di barengi dengan niat  (نَوَيْتُ التَّيَمُّمَ لاِسْتِبَاحَةِ الصَّلاَةِ فَرْضً ِللهِ تَعَالَى) lalu mengusapkannya ke muka sebanyak dua kali.\n 3. Kedua mengusap dua belah tangan hingga siku sebanyak dua kali.</string>
+
+</resources>
